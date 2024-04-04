@@ -3,8 +3,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: auto;
+  max-width: 800px;
   pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .App-logo {
+    width: 80vmin;
+  }
 }
 
 .standard-text {
@@ -12,6 +19,7 @@
   font-weight: 400;
   margin: 0.5em 0;
   color: darkblue;
+  max-width: 80%;
 }
 
 .standard-text-green {
@@ -35,7 +43,6 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 2s linear;
-    width: auto;
   }
 }
 
