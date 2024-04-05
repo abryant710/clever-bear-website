@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="standard-text">
-          Clever Bear are a web development company based in the UK. Please contact us for more information.
+          Clever Bear is a software development and consultancy company based in the UK. Please contact us for more information.
         </p>
         <a
           className="App-link"
